@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+
+
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F7FF;
+    padding: 10px 135px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.logo img{
+    height: 70px;
+    width: 60px;
+}
+
+.logo p{
+    font-family: "Odibee Sans", serif;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+   display: flex;
+   gap: 40px;
+}
+
+.nav-links a{
+    font-family: "Open Sans",sans-serif;
+    color: black;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.nav-links a:hover{
+    color: #544CAC;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.search-container input{
+    font-family: "Open Sans",sans-serif;
+    height: 35px;
+    width: 307px;
+    border: none;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+
+.icon-container{
+    width: 30px;
+    height: 30px;
+    background-color: #F5F7FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -35px;
+    cursor: pointer;
+}
+
+.icon-container svg{
+    width: 19px;
+    height: 19px;
+}
+
+#login, #sign{
+    font-family: "Open Sans",sans-serif;
+    text-decoration: none;
+    color: #000;
+    transition: 0.7s;
+}
+
+#login:hover, #sign:hover{
+     color: #544CAC;
+     cursor: pointer;
+}
+
+.container{
+    padding: 10px 135px;
+}
+
+#find{
+    background-color: #F5F7FF;
+    padding-bottom: 130px;
+}
+
+.find-info .find-header{
+    font-family: "Prompt", sans-serif;
+    font-size: 45px;
+    max-width: 480px;
+    line-height: 60px;
+    letter-spacing: 7%;
+}
+
+.find-info .find-header span{
+    color: #FF5C00;
+}
+
+.find-info .find-text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #A8A8A8;
+    line-height: 28px;
+    max-width: 545px;
+    margin-top: -20px;
+}
+
+.find-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-content img{
+    margin-bottom: -165px;
+}
+
+#discover-btn{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background-color: #544CAC;
+    color: #fff;
+    width: 160px;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#discover-btn:hover{
+    background-color: #3d377f;
+}
+
+#watch-btn{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    color: #000;
+    width: 130px;
+    height: 44px;
+    border: none;
+    cursor: pointer;
+}
+
+.find-btns{
+    margin-top: 30px;
+    max-width: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.find-btns div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-btns div svg{
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.find-btns div svg:hover{
+    height: 55px;
+    width: 55px;
+}
+
