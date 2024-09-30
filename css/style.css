@@ -719,6 +719,7 @@ nav{
     top: 80%;
     left: 30%;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .pricing-card button:hover{
@@ -729,4 +730,103 @@ nav{
     margin-top: 70px;
     display: flex;
     gap: 35px;
+}
+
+.my-footer{
+    background-color: #DBE2FF;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-header{
+    font-family: "Oswald",sans-serif;
+    font-size: 24px;
+    color: #353434;
+}
+
+.footer-column a{
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    color: #717171;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.footer-column a:hover{
+    color: #6156DC;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line{
+    border-top: 2px solid #625BAE;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.footer-lower-links{
+    display: flex;
+    gap: 75px;
+}
+
+.footer-lower-links a{
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #3A2E5C;
+    transition: 0.3s;
+}
+
+.footer-lower-links a:hover{
+    color:#5e57ae;
+}
+
+.footer-logo img{
+    width: 30px;
+    height: 40px;
+}
+
+.footer-logo p{
+    font-size: 25px;
+}
+
+.fa{
+    font-size: 18px;
+    text-decoration: none;
+    color: #979797;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin-right: 3px;
+}
+
+.fa-facebook{
+    width: 19px;
+    text-align: center;
+}
+
+.fa:hover{
+    color: #ffffff;
+    background-color: #4238AF;
+}
+
+.footer-lower-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
