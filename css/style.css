@@ -830,3 +830,8 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
+
+.nav-menu-icon{
+    display: none;
+    cursor: pointer;
+}

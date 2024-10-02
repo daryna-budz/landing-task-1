@@ -1,0 +1,447 @@
+@media (max-width: 1440px){
+    .my-header{
+        padding: 20px 55px;
+    }
+    .my-container {
+        padding: 20px 70px;
+    }
+
+    .my-nav-links, .search-container input, #login, #sign {
+        font-size: 13px;
+    }
+
+    .my-nav-links{
+        gap: 35px;
+    }
+
+    .my-logo img {
+        height: 60px;
+        width: 50px;
+    }
+
+    .find-content img {
+        left: 52%;
+    }
+    .find-text{
+        font-size: 17px;
+    }
+    .pricing-card button{
+        left: 25%;
+    }
+
+    .how-works{
+        font-size: 18px;
+    }
+
+    #accordionFlushExample{
+        width: 300px;
+    }
+
+    .video-container{
+        width: 615px;
+        height: 436px;
+    }
+
+    .card{
+        width: 290px;
+        height: 195px;
+    }
+
+    .customer-content{
+        gap: 30px;
+    }
+
+    .customer-text{
+        width: 65%;
+    }
+}
+
+@media (max-width: 1200px){
+    .my-logo img {
+        height: 50px;
+        width: 40px;
+    }
+
+    .my-logo p{
+        font-size: 30px;
+    }
+
+    .my-nav-links{
+        margin-left: 25px;
+        width: 500px;
+    }
+
+    .search-container{
+        width: 230px;
+        margin-left: -100px;
+    }
+
+    .login-container{
+        width: 100px;
+    }
+
+    #find{
+        padding-bottom: 80px;
+    }
+
+    .find-info .find-header{
+        font-size: 30px;
+    }
+
+    .find-content img {
+        width: 420px;
+        left: 54%;
+    }
+
+    .find-text {
+        font-size: 15px;
+        max-width: 470px;
+    }
+
+    .start-img-container img{
+        height: 73px;
+    }
+
+    .how-works {
+        font-size: 16px;
+    }
+
+    .start-header{
+        font-size: 36px;
+        margin-top: -15px;
+    }
+
+    #accordionFlushExample {
+        width: 255px;
+    }
+
+    .video-container img{
+        margin-top: 74px;
+        margin-left: 75px;
+        width: 95%;
+    }
+
+    #video-btn{
+        width: 65px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+    }
+    .choose-cards{
+        gap: 35px;
+    }
+
+    .jobs-previous svg, .jobs-next svg{
+        width: 50px;
+    }
+
+    .job-card{
+        width: 300px;
+        height: 380px;
+    }
+
+    .pricing-card-conditions {
+        left: 20%;
+    }
+
+    .my-logo img {
+        height: 40px;
+        width: 35px;
+    }
+
+    .pricing-card button {
+        left: 17%;
+    }
+
+    .footer-lower-links {
+        display: flex;
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 992px){
+  .my-header nav{
+    display: none;
+  }
+
+  .nav-menu-icon{
+    display: block;
+  }
+
+  .my-logo img {
+    height: 60px;
+    width: 50px;
+  }
+
+  .my-logo p {
+    font-size: 40px;
+  }
+
+  .find-info .find-header {
+    font-size: 27px;
+    line-height: 40px;
+  }
+  .find-text {
+    max-width: 365px;
+  }
+
+  .find-content img {
+    width: 325px;
+    left: 56%;
+  }
+
+  #discover-btn{
+    font-size: 14px;
+    width: 130px;
+    height: 36px;
+  }
+
+  #Capa_1{
+    width: 45px;
+    height: 45px;
+  }
+
+  #watch-btn{
+    font-size: 15px;
+  }
+  .start-img-container img {
+    height: 65px;
+  }
+
+  .how-works{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .start-header {
+    font-size: 33px;
+    text-align: center;
+  }
+
+  .start-job {
+    flex-direction: column;
+  }
+
+  #accordionFlushExample {
+    width: 310px;
+  }
+
+  .video-container img {
+    margin-left: 45px;
+    width: 90%;
+  }
+
+  #video-btn {
+    transform: translate(-90%, -100%);
+  }
+
+  .choose-cards {
+    gap: 45px;
+    flex-direction: column;
+  } 
+  
+  .jobs-carousel{
+    flex-direction: column-reverse;
+  }
+
+  .job-card {
+    width: 280px;
+    height: 360px;
+  }
+
+  .customer-text-descr{
+    margin-top: 65px;
+  }
+
+  .pricing-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card button {
+    left: 30%;
+  }
+
+  .footer-column-header{
+    font-size: 22px;
+  }
+
+  .footer-column a{
+    font-size: 14px;
+  }
+
+  .line{
+    width: 100%;
+  }
+
+  .footer-logo{
+    margin-right: 13px;
+  }
+
+  .footer-logo img {
+    height: 40px;
+    width: 35px;
+  }
+
+  .footer-logo p {
+    font-size: 30px;
+  }
+
+  .footer-lower-links a{
+    font-size: 13px;
+  }
+
+  .footer-lower-links {
+    gap: 13px;
+    margin-left: 10px;
+  }
+
+  .footer-lower-media{
+    margin-left: 20px;
+  }
+}
+
+@media (max-width:768px){
+
+    .my-container{
+        padding: 20px 50px;
+    }
+
+    .find-btns{
+        max-width: 345px;
+    }
+
+    #find {
+        padding-bottom: 130px;
+    }
+
+    .find-info{
+        z-index: 10;
+    }
+
+    .find-content img {
+        width: 250px;
+        left: 60%;
+    }
+
+    .start-img-container img {
+        height: 55px;
+    }
+
+    .video-container img {
+        margin-left: 33px;
+    }
+
+    .william-img{
+        width: 265px;
+    }
+
+    .pricing-card{
+        width: 260px;
+        height: 410px;
+    }
+
+    .footer-column a {
+        font-size: 12px;
+    }
+
+    .footer-logo {
+        margin-right: 15px;
+    }
+
+    .footer-logo img {
+        height: 30px;
+        width: 25px;
+    }
+
+    .footer-logo p {
+        font-size: 20px;
+    }
+
+    .footer-lower-media {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .fa{
+        margin-right: 20px;
+    }
+
+    .footer-lower-container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:576px){
+    #find {
+        padding-bottom: 130px;
+    }
+
+    .find-content img {
+        width: 245px;
+        left: 39%;
+        opacity: 30%;
+    }
+
+    .my-container, .my-header {
+        padding: 20px 30px;
+    }
+
+    #accordionFlushExample {
+        width: 290px;
+    }
+
+    .start-img-container {
+        gap: 10px;
+    }
+
+    .start-img-container img {
+        height: 42px;
+    }
+
+    .video-container img {
+        margin-left: 110px;
+        width: 65%;
+    }
+
+    #video-btn {
+        transform: translate(-205%, -162%);
+    }
+
+    .customer-content{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .william-img {
+        width: 230px;
+    }
+
+    .customer-statistics{
+        flex-direction: column;
+        height: 635px;
+    }
+
+    .pricing-card {
+        width: 230px;
+        height: 380px;
+    }
+
+    .pricing-card button {
+        left: 27%;
+    }
+
+    .footer-lower-links a {
+        font-size: 12px;
+    }
+
+    .footer-container{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .footer-column{
+        margin-top: 25px;
+    }
+}
