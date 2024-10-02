@@ -445,3 +445,48 @@
         margin-top: 25px;
     }
 }
+
+@media (max-width:480px){
+    .find-btns {
+        gap: 20px;
+        max-width: 345px;
+    }
+
+    #watch-btn {
+        margin-left: -19px;
+    }
+
+    .start-img-container img {
+        height: 36px;
+    }
+
+    #accordionFlushExample {
+        width: 230px;
+    }
+
+    .video-container img {
+        margin-left: 123px;
+        width: 60%;
+    }
+
+    #video-btn {
+        transform: translate(-225%, -185%);
+    }
+
+    .rating-stars {
+        top: 18%;
+    }
+    .pricing-card {
+        width: 200px;
+        height: 350px;
+    }
+
+    .pricing-card button {
+        left: 24%;
+    }
+
+    .footer-lower-links a {
+        font-size: 10px;
+    }
+}
+
